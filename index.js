@@ -108,10 +108,10 @@ const slo = new Baby('Slo', '2 years', 'trains')
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. in a method "this" refferences the object that is executing the current function
-  2. in the global scope "this" refferences the window object
-  3. in a constructor function "this" becomes the object that will be returned by the "new" keyword
-  4. 
+  1. is the function called by new
+  2. is the function called by call(), apply(), or bind()
+  3. is the function called as a method
+  4. is the function called in the global scope
 */
 
 
